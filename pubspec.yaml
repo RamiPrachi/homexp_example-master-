@@ -1,0 +1,245 @@
+name: RahiHotel
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  fluttertoast: ^8.0.9
+  introduction_screen: ^3.0.2
+  carousel_slider: ^4.0.0
+  cupertino_stepper: ^0.2.1
+  syncfusion_flutter_charts: ^20.1.51
+  pie_chart: ^5.3.0
+  firebase_core: ^2.4.1
+  firebase_auth: ^4.2.6
+  firebase_database: ^10.0.10
+  shared_preferences: ^2.0.17
+  uuid:
+  outline_search_bar:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/image/sa.png
+    - assets/image/logo.png
+    - assets/image/logo2.png
+    - assets/image/royal hotel.jpg
+    - assets/image/s1.jpg
+    - assets/image/payment(1).jpg
+    - assets/image/_314199104.png
+    - assets/image/_410382592.png
+    - assets/image/f1.jpg
+    - assets/image/Ellipse 2.png
+    - assets/image/Package.png
+    - assets/image/nearby me.png
+    - assets/image/favorite.png
+    - assets/image/notification.png
+    - assets/image/hotel_services.jpg
+    - assets/image/_422464936.png
+    - assets/image/settings.png
+    - assets/image/home3.png
+    - assets/image/about.png
+    - assets/image/contact.png
+    - assets/image/logout.png
+    - assets/image/privacy.jpg
+    - assets/image/Terms.png
+    - assets/image/Vector4.png
+    - assets/image/Vector 5.png
+    - assets/image/Vector 6.png
+    - assets/image/_14207376.png
+    - assets/image/Group 27.png
+    - assets/image/Group 92.png
+    - assets/image/Group 33.png
+    - assets/image/p1 (1).jpg
+    - assets/image/_505382064.png
+    - assets/image/network.png
+    - assets/image/x0020_1.png
+    - assets/image/g_1.jpg
+    - assets/image/gym.png
+    - assets/image/h3.png
+    - assets/image/_781027272.png
+    - assets/image/forex.png
+    - assets/image/cab serach.png
+    - assets/image/parking.png
+    - assets/image/t1.jpg
+    - assets/image/Round.png
+    - assets/image/My project-1.png
+    - assets/image/Rectangle 17.png
+    - assets/image/Group 18.png
+    - assets/image/Group 19.png
+    - assets/image/Vector (1)1111.png
+    - assets/image/Vector(2)1111.png
+    - assets/image/Group 16.png
+    - assets/image/s1 (1).jpg
+    - assets/image/_369101312.png
+    - assets/image/Group.png
+    - assets/image/Group 241.png
+    - assets/image/Rectangle 113.png
+    - assets/image/Group 273.png
+    - assets/image/Group 274.png
+    - assets/image/Group 275.png
+    - assets/image/Group 275 (1).png
+    - assets/image/Group 276.png
+    - assets/image/Group 277.png
+    - assets/image/Group 278.png
+    - assets/image/Group 276(1).png
+    - assets/image/Group 146.png
+    - assets/image/_648129888.png
+    - assets/image/Group 52.png
+    - assets/image/_647682600.png
+    - assets/image/image 4.png
+    - assets/image/hotel5.jpg
+    - assets/image/Group 493.png
+    - assets/image/Group 496.png
+    - assets/image/Group 509.png
+    - assets/image/Group 444444.png
+    - assets/image/Group 274 (1).png
+    - assets/image/Group 275 (1)12.png
+    - assets/image/Group 276 (1).png
+    - assets/image/Group 27890.png
+    - assets/image/Group 277123.png
+    - assets/image/12w13.png
+    - assets/image/2334.png
+    - assets/image/123131.png
+    - assets/image/Mask Group.png
+    - assets/image/004_ImgID1 1.png
+    - assets/image/004_ImgID4 1.png
+    - assets/image/image 2.png
+    - assets/image/H-Star.png
+    - assets/image/Star.png
+    - assets/image/Group 75.png
+    - assets/image/qwer.png
+    - assets/image/_520483976___.png
+    - assets/image/_520483976_.png
+    - assets/image/Group 13.png
+    - assets/image/Rectangle_ 16.png
+    - assets/image/Layer_x0020_1_.png
+    - assets/image/hdfc-home-loan-logo-860185B27B-seeklogo 1.png
+    - assets/image/icici_bank_logo_symbol 1.png
+    - assets/image/Mask Group 1.png
+    - assets/image/_419754840.png
+    - assets/image/_419840816.png
+    - assets/image/Group 143.png
+    - assets/image/Group 149.png
+    - assets/image/Group 151.png
+    - assets/image/Group 146.png
+    - assets/image/Group 599.png
+    - assets/image/Group 601.png
+    - assets/image/_393479048.png
+    - assets/image/Cancel loan.png
+    - assets/image/001 1.png
+    - assets/image/Group 675.png
+    - assets/image/Group 91.png
+    - assets/image/Ellipse 4.png
+    - assets/image/Ellipse 5.png
+    - assets/image/hotel_2.jpg
+    - assets/image/p1 (2).jpg
+    - assets/image/p1(4).jpg
+    - assets/image/rate us.png
+    - assets/image/w1 (5).jpg
+    - assets/image/p1 (3).jpg
+    - assets/image/s1 (2).jpg
+    - assets/image/s1 (3).jpg
+    - assets/image/s1 (4).jpg
+    - assets/image/s1 (5).jpg
+    - assets/image/d1 (1).jpg
+    - assets/image/d1 (2).jpg
+    - assets/image/d1 (3).jpg
+    - assets/image/d1 (4).jpg
+    - assets/image/d1 (5).jpg
+    - assets/image/t1 (1).jpg
+    - assets/image/t1 (2).jpg
+    - assets/image/t1 (3).jpg
+    - assets/image/t1 (4).jpg
+    - assets/image/t1 (5).jpg
+    - assets/image/n1 (1).jpg
+    - assets/image/n1 (2).jpg
+    - assets/image/n1 (3).jpg
+    - assets/image/n1 (4).jpg
+    - assets/image/n1 (5).jpg
+    - assets/image/w1 (2).jpg
+    - assets/image/p1.png
+    - assets/image/w1 (7).jpg
+    - assets/image/r1.jpg
+
+
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
